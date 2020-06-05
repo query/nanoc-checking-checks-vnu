@@ -36,8 +36,8 @@ Then execute:
 
     $ nanoc check vnu  # prefix with `bundle exec` as appropriate
 
-You can automatically this check at deploy time by adding `vnu` to [the
-`checking` section of `nanoc.yaml`][nanoc-check-deploy].
+You can automatically run this check at deploy time by adding `vnu` to
+[the `checking` section of `nanoc.yaml`][nanoc-check-deploy].
 
 [nanoc-check-deploy]: https://nanoc.ws/doc/testing/#running-checks-before-deploying
 
