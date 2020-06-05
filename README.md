@@ -29,7 +29,7 @@ Or install it yourself as:
 Add this line to a Ruby file inside your site's `lib` directory:
 
 ```ruby
-require 'nanoc-checking-checks-vnu'
+require 'nanoc/checking/checks/vnu'
 ```
 
 Then execute:
