@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "nanoc-checking-checks-vnu"
-  spec.version       = "1.0.0"
+  spec.version       = "1.1.0"
   spec.authors       = ["Roger Que"]
   spec.email         = ["git@alerante.net"]
 

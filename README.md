@@ -38,6 +38,15 @@ Then execute:
 
 You can automatically run this check at deploy time by adding `vnu` to
 [the `checking` section of `nanoc.yaml`][nanoc-check-deploy].
+By default, CSS and SVG files are validated in addition to HTML files.
+This can be changed by configuring the check in `nanoc.yaml`:
+
+```yaml
+checks:
+  vnu:
+    also_check_css: no
+    also_check_svg: no
+```
 
 [nanoc-check-deploy]: https://nanoc.ws/doc/testing/#running-checks-before-deploying
 
